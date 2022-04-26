@@ -5,13 +5,13 @@ package com.roger.leetcodejava;
  * @date: 2022/4/20 8:03 AM
  */
 public class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
+  public int val;
+  public TreeNode left;
+  public TreeNode right;
 
-  TreeNode() {}
+  public TreeNode() {}
 
-  TreeNode(int val) {
+  public TreeNode(int val) {
     this.val = val;
   }
 
